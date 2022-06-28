@@ -12,7 +12,7 @@ check cart added item
 
 check cart quantity
     [Arguments]                 ${expectedquantity}
-    Element Text Should Be      css:.qty-input  ${expectedquantity}
+    Textfield Value Should Be      css:.qty-input  ${expectedquantity}
 
 update cart quantity
     [Arguments]                 ${inputquantity}
