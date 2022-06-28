@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation                       This is the global setup object
+Documentation                       Global setup object
 Library                             SeleniumLibrary
 Library                             ../customLibraries/chromedriversync.py
 Library                             String
@@ -14,4 +14,3 @@ test setup
     Maximize Browser Window
     Set Browser Implicit Wait       10
     Capture Page Screenshot         EMBED
-

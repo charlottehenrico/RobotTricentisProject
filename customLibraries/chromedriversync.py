@@ -1,5 +1,5 @@
-# to check if there is a new version of the driver and downloads it automagically
-# and returns the latest version driver path (where it is in dir)
+# Check if there is a new version of the driver and downloads it
+# and returns the latest version driver path directory
 from webdriver_manager.chrome import ChromeDriverManager
 
 
